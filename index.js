@@ -1,6 +1,6 @@
 var tiles = require('./lib/timezones.json');
 var tilebelt = require('@mapbox/tilebelt');
-const {DateTime} = require('luxon');
+const { DateTime } = require('luxon');
 var ss = require('simple-statistics');
 
 var z = Object.keys(tiles)[0].split('/').map(Number)[2];
